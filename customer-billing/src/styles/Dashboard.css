@@ -1,0 +1,67 @@
+.dashboard {
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters input,
+.filters button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.filters button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
+.company-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-details table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.company-details th,
+.company-details td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.company-details th {
+  background-color: #007bff;
+  color: white;
+}
+
+.company-details tr:hover {
+  background-color: #f1f1f1;
+}
